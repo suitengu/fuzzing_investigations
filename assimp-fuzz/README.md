@@ -25,9 +25,6 @@ This is likely overkill and could be refined, but I just used all the test .fbx 
 mkdir inputs
 cp /test/models/FBX/*.fbx inputs/
 cp /test/models-nonbsd/FBX/2013_ASCII/*.fbx inputs:
-``` bash
-gdb test
-run findings/default/crashes/id:00000
 cp /test/models-nonbsd/FBX/2013_BINARY/*.fbx inputs/
 ```
 
